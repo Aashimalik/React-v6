@@ -1,0 +1,22 @@
+{
+  "name": "complete-intro-to-react-v6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aashimalik/React-v6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aashimalik/React-v6/issues"
+  },
+  "homepage": "https://github.com/Aashimalik/React-v6#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
