@@ -1,10 +1,12 @@
 {
-  "name": "complete-intro-to-react-v6",
+  "name": "adopt-me",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The Adopt Me pet adoption app",
+  "main": "src/index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.{js,jsx}\""
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,15 @@
   },
   "homepage": "https://github.com/Aashimalik/React-v6#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "parcel": "^1.12.3",
     "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
